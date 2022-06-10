@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('buy')
-		.setDescription('Buy stuff!')
+		.setDescription('Purchase an item with DKP!')
 		.addStringOption(option =>
 			option.setName('item')
 				.setDescription('item name')

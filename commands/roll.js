@@ -3,7 +3,7 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('roll')
-		.setDescription('Replies with Server Info!')
+		.setDescription('Rolls a magical dice!')
 		.addIntegerOption(option =>
 			option.setName('low_number')
 				.setDescription('The lower bound for the roll.')
