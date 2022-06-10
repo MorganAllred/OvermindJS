@@ -57,4 +57,5 @@ function runClientSetup() {
 		}
 	}
 }
+
 client.login(token);
