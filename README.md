@@ -1,5 +1,7 @@
 # OvermindJS
 *A mastermind robot to make life better*
+
+## Overmind
 ![Overmind](https://github.com/MorganAllred/OvermindJS/blob/main/assets/overmind.PNG)
 
 
